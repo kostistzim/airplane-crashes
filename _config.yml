@@ -1,0 +1,32 @@
+# Site settings
+title: My New Awesome Project # CHANGE THIS
+email: your-email@example.com # Optional - CHANGE THIS
+description: >- # Optional - CHANGE THIS 
+  A description of my awesome new project website using Jekyll.
+
+# --- CRITICAL FOR GITHUB PROJECT PAGES ---
+# Set 'baseurl' to the name of your repository, preceded by a slash.
+# For https://kostistzim.github.io/new-data-project/ set baseurl to "/new-data-project"
+baseurl: "/airplane-crashes" # *** REPLACE new-data-project with YOUR repository name ***
+
+# Set 'url' to your main GitHub Pages domain (without the repository name).
+url: "https://kostistzim.github.io" # *** Ensure username is correct ***
+# -----------------------------------------
+
+# Build settings
+markdown: kramdown
+
+# You might specify a theme gem here if you aren't building layouts manually
+theme: minima 
+
+# If using plugins not included in the 'github-pages' gem, list them here
+plugins:
+ - jekyll-feed
+
+# Files/folders to exclude from the final website build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - README.md 
+  # Add others like node_modules, vendor/, etc. if needed
