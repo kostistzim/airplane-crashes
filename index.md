@@ -1,8 +1,6 @@
 ---
-layout: default
-title: Home
+layout: home
+
 ---
 
-# Welcome to My New Project!
 
-This is the homepage content. You can use **Markdown** here.
