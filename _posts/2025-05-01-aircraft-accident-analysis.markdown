@@ -17,7 +17,7 @@ By examining real-world accident records from 1948 to the present, we explore va
 <br>
 The figure below, "Number of Aircraft Accidents per Year," visualizes the trend in aircraft accidents over time. As you can see, there was a significant spike in crashes during the mid-20th century, particularly around the late 1940s and early 1950s. This dramatic increase coincides with the expansion of air travel, followed by improvements in aircraft technology and safety standards that led to a decline in accidents over the years. </p>
 
-![Number of Aircraft Accidents per Year](/images/Number_of_Aircraft_Accidents_per_Year.jpeg)
+![Number of Aircraft Accidents per Year]({{ "/images/Number_of_Aircraft_Accidents_per_Year.jpeg" | relative_url }})
 
 
 <br>
