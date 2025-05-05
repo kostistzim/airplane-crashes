@@ -86,14 +86,11 @@ To get another angle on the data, we decided to rank the specific operators with
 <br>
 <br>
 We were also initially surprised to see the United States Navy so high up, thinking mostly of ships! But then we remembered that navies operate huge air forces too – think about all the planes and helicopters flying from aircraft carriers and naval bases. Naval aviation has its own unique challenges, like landing on moving ships, which unfortunately means more opportunities for accidents compared to some other types of flying. So, their high ranking reflects their significant role in aviation history. Further down the list, we start seeing the big, familiar names of commercial airlines like American, United, and Delta, which have flown countless miles over many decades. And, of course, the 'private' and 'Unknown' categories pop up again, reminding us of the diversity in the data.
-</p>
+
 ![Number of Aircraft Accidents per Year]({{ "/images/top15operators.png" | relative_url }})
 
 <br>
-<br>
 
-Military aviation historically reports the highest number of accidents, especially before the 1990s. Civilian aviation, while more prominent today, shows a steady decrease in major accidents since the early 2000s. 
-<br>
 
 
 <h1 style="color:rgb(107, 142, 202);"> Aviation Eras: Propellers to Jets </h1>
@@ -175,6 +172,10 @@ Most survivable accidents involve substantial damage rather than total write-off
 
 <div class="references-list">
   <h2 style="color: rgb(107, 142, 202);">References</h2> <ul>
+   <li>
+  <strong>Airplane Crash & Fatalities (1948–Present):</strong>
+  Kaggle. (n.d.). Retrieved May 5, 2025, from <a href="https://www.kaggle.com/datasets/themuneeb99/airplane-crash-and-fatalities-1948present/data" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/themuneeb99/airplane-crash-and-fatalities-1948present/data</a>
+</li>
     <li>
       <strong>Aeroflot Flight 217 (1972):</strong> Aviation Safety Network. (n.d.). <em>ASN Aircraft accident Ilyushin Il-62 CCCP-86671 Moskva-Sheremetyevo Airport (SVO)</em>. Retrieved May 5, 2025, from <a href="https://aviation-safety.net/database/record.php?id=19721013-1" target="_blank" rel="noopener noreferrer">https://aviation-safety.net/database/record.php?id=19721013-1</a>
     </li>
