@@ -161,7 +161,13 @@ In each era, we analyzed the severity of aircraft damage by operator type using 
 <br>
 In the Modern Era, civilian aircraft accidents are far less likely to result in a total loss (write-off) compared to earlier decades. In contrast, military operations maintain a relatively high proportion of serious damage cases, likely due to the nature of their missions. </p>
 <br>
-
+<iframe src="{{ '/assets/plotly_html/aircraft_accident_severity.html' | relative_url }}"
+        width="200%"
+        height="600"
+        style="border:none;"
+        scrolling="no"
+        title="Interactive chart showing total fatalities in aircraft accidents per year">
+</iframe>
 
 
 <style>
