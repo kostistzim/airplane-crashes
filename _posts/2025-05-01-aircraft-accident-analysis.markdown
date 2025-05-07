@@ -18,9 +18,7 @@ By examining historical data on aircraft accidents from 1948 to the present, thi
 Through a series of interactive visualisations, we delve deep into the data to understand the factors that have influenced aviation safety and the lessons we can learn from past incidents.The figure below, 'Number of aircraft accidents per year', visualises the trend in aircraft accidents over time. As you can see, there was a significant increase in the number of accidents in the middle of the 20th century, particularly in the late 1940s and early 1950s. This increase is largely due to accidents associated with the Second World War and the rapid expansion of air travel. After this period, however, advances in aircraft technology and safety regulations contributed to a steady decline in the number of accidents, demonstrating the continuous improvement in aviation safety.  </p> 
 
 
-<p style="text-align: justify;">
 
-</p>
 <iframe src="{{ '/assets/plotly_html/crashes_per_year.html' | relative_url }}"
         width="100%"
         height="500"
@@ -47,10 +45,9 @@ One of the most striking features of the graph is the massive spike in fatalitie
 <br>
 <br>
 After the Second World War, as air travel expanded worldwide, the number of fatalities remained high, with some notable fluctuations over the decades. The 1970s and 1980s saw a number of disastrous years for aviation. However, despite these challenges, the general trend over time has been a steady decline in fatalities, thanks to improvements in aircraft technology, safety protocols and regulatory oversight. This positive trend underlines how far aviation has come, with the number of fatalities per flight falling significantly in recent decades. 
-<br>
-<br>
 </p>
 
+<br>
 <h3 style="color:rgb(107, 142, 202);">Fatalities and High-Impact Years</h3>
 <p style="text-align: justify;">
 While the general trend has been a reduction in the number of fatalities, certain years stand out for catastrophic accidents that caused significant loss of life. For example, 1972 is remembered as one of the deadliest years in aviation history. It wasn't a single crash, but a series of tragic accidents involving large passenger aircraft such as the Soviet Ilyushin Il-62, the British Trident and the American DC-8 and L-1011. A major event that year was the crash of an Aeroflot flight near Moscow, where 174 people died when the plane crashed on approach. A BEA Trident jet also stalled shortly after take-off from London, killing 118 people, while an Eastern Airlines L-1011 crashed in Florida, partly because the crew was distracted by a warning light. 
@@ -74,6 +71,7 @@ Despite these tragic outliers, the most striking trend is the decline in fatalit
   <b><span style="color: rgb(88, 117, 169);">Figure 2</span></b>: Total Fatalities Aircraft Accidents per Year
 
 </p> 
+<br>
 <br>
 
 <h1 style="font-weight: bold; color:rgb(107, 142, 202);">Accidents by Operator Category: A Closer Look </h1>
@@ -142,9 +140,15 @@ Finally, the Private and Unknown categories highlight the diverse range of opera
 </p> 
 
 
-<h1 style="font-weight: bold; color:rgb(107, 142, 202);"> Aviation Eras: Propellers to Jets </h1>
+<br>
+<br>
 
-<p style="text-align: justify;"> To explore how aviation safety has evolved with technology, we divided the timeline into three broad eras: </p>
+<h1 style="font-weight: bold; color:rgb(107, 142, 202);"> Aviation Eras: The Impact of Evolving Technology </h1>
+
+<p style="text-align: justify;"> As we’ve seen, the number of aircraft accidents and fatalities has declined significantly over time. But another equally important dimension of aviation safety is how severe accidents are when they do happen, and this has also changed dramatically with advances in technology. 
+<br>
+<br>
+To explore this, we divided our data into three major aviation eras:  </p>
 
 <ul>
     <li>Propeller Era (before 1960)  </li>
@@ -153,14 +157,25 @@ Finally, the Private and Unknown categories highlight the diverse range of opera
   </ul>
 
 <p style="text-align: justify;">
-In each era, we analyzed the severity of aircraft damage by operator type using a faceted bar chart. 
+Each era marks a significant stage in the development of aviation technology, from early piston-driven aircraft to the introduction of commercial jets and, more recently, highly automated and electronically controlled airliners.
 <br>
 <br>
-[Plotly Bar Chart: Damage Severity Distribution by Era and Operator Type] 
+In the visualisation below, we look at the types of damage sustained in aircraft accidents across these three eras. The severity of each accident is categorised into four groups: Write-off (total destruction of the aircraft), Substantial, Minor, and Unknown/None. Each category is colour-coded and grouped by era, allowing us to track how the nature of accident outcomes has shifted over time. 
+
 <br>
 <br>
-In the Modern Era, civilian aircraft accidents are far less likely to result in a total loss (write-off) compared to earlier decades. In contrast, military operations maintain a relatively high proportion of serious damage cases, likely due to the nature of their missions. </p>
+In the Propeller Era, accidents were overwhelmingly severe. The majority resulted in the complete destruction of the aircraft, reflecting both the fragility of early designs and the limited safety protocols of the time. These were aircraft built without modern materials, flying without real-time weather systems, and often without any formalised emergency procedures. 
 <br>
+<br>
+As we enter the Jet Age, the story begins to shift. Aircraft became more robust, systems more redundant, and regulations more strict. During the Early Jet Era, there is a noticeable increase in survivable incidents, accidents that no longer resulted in total loss, but instead ended in substantial or minor damage. These improvements were largely driven by innovations in navigation, improved airport infrastructure, and the introduction of cockpit procedures like crew resource management. 
+<br>
+<br>
+By the Modern Jet Era, this transformation becomes even more pronounced. While accidents have become less frequent overall, the accidents that do occur are more likely to be survivable. This is due to a combination of technological advances, such as enhanced structural design, better crashworthiness, improved fire suppression systems, and real-time monitoring, as well as regulatory changes, pilot training reforms, and global coordination on aviation safety standards. 
+<br>
+<br>
+The evolution of accident severity is a powerful indicator of progress. It shows that aviation safety is not only about reducing the number of incidents, it’s also about reducing the consequences when things go wrong. The chart below provides a clear visual representation of this shift, underlining how far the industry has come in designing aircraft and systems that protect both passengers and crew. 
+ </p>
+
 <iframe src="{{ '/assets/plotly_html/aircraft_accident_severity.html' | relative_url }}"
         width="200%"
         height="600"
@@ -168,8 +183,14 @@ In the Modern Era, civilian aircraft accidents are far less likely to result in 
         scrolling="no"
         title="Interactive chart showing total fatalities in aircraft accidents per year">
 </iframe>
+<p style="text-align: center;"> 
 
+  <b><span style="color: rgb(88, 117, 169);">Figure 5</span></b>: Aircraft Accident Severity by Era 
 
+</p> 
+
+<br>
+<br>
 <style>
   /* Style the references section */
   .references-list ul {
