@@ -211,12 +211,31 @@ The evolution of accident severity is a powerful indicator of progress. It shows
   }
 </style>
 
+<style>
+  /* Style the references section */
+  .references-list ul {
+    padding-left: 20px; /* Adjust indentation if needed */
+  }
+  .references-list li {
+    font-size: 0.9em; /* Make the list item text slightly smaller */
+    margin-bottom: 0.5em; /* Add a little space between items */
+    color: #555; /* Slightly lighter text color, common in Minima */
+  }
+  .references-list li a {
+    color: rgb(107, 142, 202); /* Link color to match heading */
+    text-decoration: none; /* Optional: remove underline */
+  }
+  .references-list li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+</style>
+
 <div class="references-list">
-  <h2 style="color: rgb(107, 142, 202);">References</h2> <ul>
-   <li>
-  <strong>Airplane Crash & Fatalities (1948–Present):</strong>
-  Kaggle. (n.d.). Retrieved May 5, 2025, from <a href="https://www.kaggle.com/datasets/themuneeb99/airplane-crash-and-fatalities-1948present/data" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/themuneeb99/airplane-crash-and-fatalities-1948present/data</a>
-</li>
+  <h2 style="color: rgb(107, 142, 202);">References</h2>
+  <ul>
+    <li> <strong>Airplane Crash & Fatalities (1948–Present):</strong>
+      Kaggle. (n.d.). Retrieved May 5, 2025, from <a href="https://www.kaggle.com/datasets/themuneeb99/airplane-crash-and-fatalities-1948present/data" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/themuneeb99/airplane-crash-and-fatalities-1948present/data</a>
+    </li>
     <li>
       <strong>Aeroflot Flight 217 (1972):</strong> Aviation Safety Network. (n.d.). <em>ASN Aircraft accident Ilyushin Il-62 CCCP-86671 Moskva-Sheremetyevo Airport (SVO)</em>. Retrieved May 5, 2025, from <a href="https://aviation-safety.net/database/record.php?id=19721013-1" target="_blank" rel="noopener noreferrer">https://aviation-safety.net/database/record.php?id=19721013-1</a>
     </li>
@@ -244,8 +263,18 @@ The evolution of accident severity is a powerful indicator of progress. It shows
     <li>
       <strong>Metrojet Flight 9268 (2015):</strong> Aviation Safety Network. (n.d.). <em>ASN Aircraft accident Airbus A321-231 EI-ETJ Hasna, North Sinai</em>. Retrieved May 5, 2025, from <a href="https://aviation-safety.net/database/record.php?id=20151031-0" target="_blank" rel="noopener noreferrer">https://aviation-safety.net/database/record.php?id=20151031-0</a>
     </li>
+     <li>
+      <strong>Narrative Visualization (2010):</strong> Segel, E., & Heer, J. (2010). Narrative Visualization: Telling Stories with Data. <em>IEEE Transactions on Visualization and Computer Graphics, 16</em>(6), 1139-1148. Retrieved May 8, 2025, from <a href="https://www.researchgate.net/publication/47544586_Narrative_Visualization_Telling_Stories_with_Data" target="_blank" rel="noopener noreferrer">https://www.researchgate.net/publication/47544586_Narrative_Visualization_Telling_Stories_with_Data</a>
+    </li>
+    <li> <strong>Social Data Analysis and Visualization Course Wiki (Final Project):</strong> Manoussakis, S. (n.d.). *Final Project*. GitHub Wiki. Retrieved May 8, 2025, from <a href="https://github.com/suneman/socialdata2025/wiki/Final-Project" target="_blank" rel="noopener noreferrer">https://github.com/suneman/socialdata2025/wiki/Final-Project</a>
+    </li>
+    <li> <strong>Data Analysis with Open Source Tools:</strong> Janert, P. K. (n.d.). <em>Data Analysis with Open Source Tools</em>. O'Reilly Media.
+    </li>
+     <li> <strong>Data Science from Scratch:</strong> Grus, J. (n.d.). <em>Data Science from Scratch</em>. O'Reilly Media.
+    </li>
   </ul>
 </div>
+
 
 
 
