@@ -231,8 +231,7 @@ The evolution of accident severity is a powerful indicator of progress. It shows
 </style>
 
 
-<h3 style="color:rgb(107, 142, 202);">Conclusion</h3>
-
+<h1 style="font-weight: bold; color:rgb(107, 142, 202);"> Conclusion </h1>
 <p style="text-align: justify;">
 So, after diving deep into decades of aircraft accident data, what's the big picture? Our journey through this historical dataset has painted a vivid, and ultimately hopeful, story of aviation safety. We've seen how tracking accidents and fatalities year by year, and slicing the data by different operator types like 'Military' versus 'Civilian/Commercial', really brought out distinct patterns. From the stark realities of wartime flying shown by the USAAF's high numbers, to the impressive safety turnaround in commercial aviation, the data spoke volumes.
 </p>
