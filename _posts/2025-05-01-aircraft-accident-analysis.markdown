@@ -188,6 +188,10 @@ The evolution of accident severity is a powerful indicator of progress. It shows
   <b><span style="color: rgb(88, 117, 169);">Figure 5</span></b>: Aircraft Accident Severity by Era 
 
 </p> 
+<br>
+
+<p style="text-align: justify;"> One important note is the presence of a large “Unknown/None” category, particularly in more recent decades. These represent cases where the severity of the incident was not recorded or not clearly defined. While they don’t indicate actual safety outcomes, their increasing frequency may reflect changes in reporting standards, data limitations, or a rise in minor incidents where detailed damage assessments weren't necessary.
+ </p>
 
 <br>
 <br>
